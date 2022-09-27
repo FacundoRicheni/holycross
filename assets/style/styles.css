@@ -1,0 +1,579 @@
+*{
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+}
+
+.navbar-text{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbrand-bg{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.navbar-logo{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+.nav-links{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-right: 35px;;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+}
+
+.link-text{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight:800;
+    text-decoration: none;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.link-img{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    margin-top: -5%;
+}
+
+.link-img2{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    margin-top: -1%;
+}
+
+.link-img3{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+    color: black;
+}
+
+
+.link-img:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    transition:all .5s ease-in-out;
+    color: black;
+}
+
+.link-img2:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    transition:all .5s ease-in-out;
+    color: black;
+}
+
+.img-main{
+    width: 100%;
+    height: 420px;
+}
+
+.main-text{
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 10px;
+}
+
+.main-title{
+    font-size: 55px;
+    font-weight: 1000;
+}
+
+.main-subtitle{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.cafe-text{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.contact-btn{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(190, 190, 190);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-btn:hover{
+    transition:all .5s ease-in-out;
+    color: white;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.card-main{
+    width: 850px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact-section{
+    text-align: center;
+}
+
+.maps{
+    margin-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-maps{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+
+h4{
+    margin-top: 5%;
+}
+
+.direction-btn{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(235, 235, 235);
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.direction-btn:hover{
+    transition:all .5s ease-in-out;
+    color: black;
+    background-color: white;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.adress-title{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.schedule{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+.adress{
+    width: 40%;
+    margin-left: 15%;
+}
+
+.hours{
+    width: 40%;
+}
+
+.business-hours-title{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.hours li{
+    list-style: none;
+}
+
+.business-hours-text{
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width:1440px) {
+    div.schedule{
+      margin-top: 12%;
+    }
+  
+    h5.adress-title{
+      margin-top: 1%;
+    }
+
+
+@media only screen and (max-width:1024px) {
+  div.schedule{
+    margin-top: 15%;
+  }
+
+  h5.adress-title{
+    margin-top: 1%;
+  }
+
+
+
+@media only screen and (max-width:768px) {
+    
+    .navbar{
+        width: 768px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    a.navbar-text{
+        font-size: 17px;
+    }
+
+    .nav-links{
+        margin-top: 10px;
+        margin-left: 300PX
+    }
+
+    .card-main{
+        width: 650px;
+    }
+
+    div.schedule{
+        margin-top: 20%;
+        margin-right: 7%;
+    }
+
+    h5.adress-title{
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    
+    .navbar{
+        width: 425px;
+        height: 200px;
+    }
+
+    a.navbar-text{
+        width: 425px;
+    }
+
+    div.navbrand-bg{
+        width: 425px;
+    }
+
+    a.navbar-text{
+        font-size: 18px;
+    }
+
+    div.nav-links{
+        margin: 0;
+        width: 425px;
+    }
+
+    .main-text{
+        width: 400px;
+    }
+
+    .logo2jfif{
+        width: 400px;
+        margin: 3%;
+    }
+
+    .card-main{
+        width: 400px;
+        height: 300px;
+    }
+
+    .img-main{
+        width: 400px;
+        height: 280px;
+    }
+
+    .link-img{
+        width: 40px;
+    }
+
+
+    div.schedule{
+        margin-top: 25%;
+        margin-left: -25px;
+    }
+
+    .direction-btn{
+        width: 150px;
+        height: 90px;
+        border-radius: 5%;
+        margin-top: 25%;
+    }
+
+    h5.adress-title{
+        margin-top: 4%;
+        margin-bottom: 50px;
+    }
+
+    .street-adress{
+        margin-top: 10%;
+    }
+
+    .mapouter{
+        width: 400px;
+        margin-left: 5%;
+    }
+
+    div.socialmedia-links{
+        width: 425px;
+    }
+
+    .main-subtitle{
+        width: 425px;
+        margin-left: -1%;
+    }
+
+}
+
+
+@media only screen and (max-width:375px) {
+    
+    .navbar{
+        width: 375px;
+        height: 200px;
+    }
+
+    a.navbar-text{
+        width: 375px;
+    }
+
+    div.navbrand-bg{
+        width: 375px;
+    }
+
+    a.navbar-text{
+        font-size: 17px;
+    }
+
+    div.nav-links{
+        margin: 0;
+        width: 475px;
+    }
+
+    a.link-text{
+        font-size: 12px;
+    }
+
+    .main-text{
+        width: 375px;
+    }
+
+
+    img.logo2jfif{
+      margin: 0px;
+    }
+    .logo2jfif{
+        width: 375px;
+    }
+
+    .card-main{
+        width: 350px;
+        height: 300px;
+    }
+
+    .img-main{
+        width: 350px;
+        height: 280px;
+    }
+
+    .link-img{
+        width: 40px;
+    }
+
+    h3.cafe-text{
+        margin-left: 5%;
+    }
+
+    div.schedule{
+        margin-left: -5%;
+        margin-top: 35%;
+    }
+
+    .direction-btn{
+        width: 100px;
+        height: 100px;
+        border-radius: 5%;
+        margin-top: 25%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h5.adress-title{
+        margin-top: 4%;
+        margin-bottom: 50px;
+    }
+
+    .street-adress{
+        margin-top: 10%;
+    }
+
+    .mapouter{
+        width: 400px;
+        margin-left: 5%;
+    }
+
+    div.socialmedia-links{
+        width: 375px;
+    }
+
+    .main-subtitle{
+        width: 375px;
+        margin-left: -1%;
+    }
+
+    div.maps{
+        margin-left: 25px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:320px){
+    
+    *{
+        margin: 0px;
+    }
+    .navbar{
+        width: 320px;
+        height: 200px;
+    }
+
+    a.navbar-text{
+        width: 320px;
+    }
+
+    div.navbrand-bg{
+        width: 320px;
+        margin: 0px;
+    }
+
+    a.navbar-text{
+        font-size: 12px;
+    }
+
+    a.link-text{
+        font-size: 8px;
+    }
+
+    div.nav-links{
+        margin-left: -15px;
+        width: 320px;
+    }
+
+    .main-text{
+        width: 300px;
+    }
+
+    .logo2jfif{
+        width: 300px;
+        margin: 3%;
+    }
+
+    .card-main{
+        width: 300px;
+        height: 250px;
+        margin: 5%;
+    }
+
+    div.card-main{
+        margin-left: -10px;
+    }
+
+    .img-main{
+        width: 300px;
+        height: 250px;
+    }
+
+    .link-img{
+        width: 40px;
+    }
+
+    h3.cafe-text{
+        margin-left: 5%;
+    }
+
+    div.schedule{
+        margin-left: -25px;
+        margin-top: 35%;
+        font-size: 12px;
+    }
+
+    .direction-btn{
+        width: 100px;
+        height: 100px;
+        border-radius: 5%;
+        margin-top: 25%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h5.adress-title{
+        margin-top: 4%;
+        margin-bottom: 50px;
+    }
+
+    .street-adress{
+        margin-top: 10%;
+    }
+
+    .mapouter{
+        width: 400px;
+        margin-left: 5%;
+    }
+
+    div.socialmedia-links{
+        width: 320px;
+    }
+
+    .main-subtitle{
+        width: 320px;
+        margin-left: -1%;
+    }
+}
